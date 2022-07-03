@@ -28,5 +28,8 @@ SELECT * FROM Produto order by nome;
 
 SELECT * FROM Produto where id = 3;
 
+SELECT * FROM Produto;
+SELECT * FROM Produto where nome like '%lar%';
+
 UPDATE Produto set codigo=1, nome=a, categoria=a, valor=1, quantidade=1 where id=0;
 
